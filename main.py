@@ -1,6 +1,8 @@
 from downloader import direct_download,indirect_download
 import inquirer,sys
+from logo import logo
 def main():
+    logo()
     try:
         questions = [
           inquirer.List('linkWay',
